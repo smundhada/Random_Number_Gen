@@ -66,7 +66,7 @@ function getPasswordLength(){
 //Checking if the password is between the required characters.
 function checkPasswordLength(passwrd_Length){
 
-  if (passwrd_Length < 7 || passwrd_Length > 128){
+  if (passwrd_Length < 8 || passwrd_Length > 128){
     alert("Please pick a password length between 8 and 128 characters.");
     getPasswordLength();
   }
